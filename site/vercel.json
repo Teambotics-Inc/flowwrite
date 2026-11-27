@@ -1,6 +1,17 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "flow-write.teambotics.app"
+        }
+      ],
+      "destination": "https://flowrite.teambotics.app/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
