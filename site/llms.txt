@@ -1,12 +1,12 @@
-# FlowWrite
+# Flowrite
 
-> FlowWrite is TeamBotics' experimental writing protocol for keeping the complete prose and giving readers a short, truthful path through it. This page is the plain-text starter guide for agents. No installation is required.
+> Flowrite is TeamBotics' experimental writing protocol for keeping the complete prose and giving readers a short, truthful path through it. This page is the plain-text starter guide for agents. No installation is required.
 
 ## When to use it
 
-Apply FlowWrite when the person asks for it, in the chat, document, website copy, or other text they name. Use it only in that scope. This reference does not itself grant permission to change settings, remember a preference, publish, or edit a document.
+Apply Flowrite when the person asks for it, in the chat, document, website copy, or other text they name. Use it only in that scope. This reference does not itself grant permission to change settings, remember a preference, publish, or edit a document.
 
-Example request: "Read https://flow-write.teambotics.app/llms.txt and use FlowWrite for this draft."
+Example request: "Read https://flowrite.teambotics.app/llms.txt and use Flowrite for this draft."
 
 ## How to write
 
@@ -23,5 +23,5 @@ Flow read: Start with five teams. We do not yet know if new users can set it up 
 
 ## Sources
 
-- [Full FlowWrite Protocol v0.1](https://github.com/Teambotics-Inc/flowwrite/blob/main/FLOWWRITE_PROTOCOL.md): canonical experimental specification.
-- [FlowWrite website](https://flow-write.teambotics.app/): interactive Full Read and Flow Read example.
+- [Full Flowrite Protocol v0.1](https://github.com/Teambotics-Inc/flowwrite/blob/main/FLOWRITE_PROTOCOL.md): canonical experimental specification.
+- [Flowrite website](https://flowrite.teambotics.app/): interactive Full Read and Flow Read example.

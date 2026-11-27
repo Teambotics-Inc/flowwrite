@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FlowWrite — Write the whole thing. Guide the eye.</title>
-<meta name="description" content="FlowWrite is an experimental writing protocol. Keep the complete prose and give readers a short, truthful path through it.">
-<link rel="canonical" href="https://flow-write.teambotics.app/">
-<link rel="alternate" type="text/plain" title="FlowWrite guide for agents" href="https://flow-write.teambotics.app/llms.txt">
+<title>Flowrite — Write the whole thing. Guide the eye.</title>
+<meta name="description" content="Flowrite is an experimental writing protocol. Keep the complete prose and give readers a short, truthful path through it.">
+<link rel="canonical" href="https://flowrite.teambotics.app/">
+<link rel="alternate" type="text/plain" title="Flowrite guide for agents" href="https://flowrite.teambotics.app/llms.txt">
 <meta name="theme-color" content="#151614">
 <meta property="og:type" content="website">
-<meta property="og:title" content="FlowWrite — Write the whole thing. Guide the eye.">
+<meta property="og:title" content="Flowrite — Write the whole thing. Guide the eye.">
 <meta property="og:description" content="An experimental writing protocol by TeamBotics. Try Full Read and Flow Read on the same document.">
-<meta property="og:url" content="https://flow-write.teambotics.app/">
+<meta property="og:url" content="https://flowrite.teambotics.app/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23151614'/%3E%3Cpath d='M35 11h11L29 53H18z' fill='%23e9fa69'/%3E%3C/svg%3E">
 <style>
 :root{color-scheme:light;--ink:#151614;--paper:#f7f1e3;--lime:#e9fa69;--muted:#565850;--line:#b9b4a7;--mono:ui-monospace,"Cascadia Mono","Courier New",monospace;--ease:cubic-bezier(.22,1,.36,1)}
@@ -28,13 +28,13 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="dark"><div class="wrap top">
-<a class="wordmark" href="/" aria-label="FlowWrite home">FLOW<span>/</span>WRITE</a><span class="stamp">An experimental writing protocol by TeamBotics</span>
+<a class="wordmark" href="/" aria-label="Flowrite home">FLOW<span>/</span>RITE</a><span class="stamp">An experimental writing protocol by TeamBotics</span>
 <nav aria-label="Primary"><a href="#protocol">Protocol <span class="arrow" aria-hidden="true">↗</span></a><a href="https://github.com/Teambotics-Inc/flowwrite">GitHub <span class="arrow" aria-hidden="true">↗</span></a></nav>
 </div></header>
 <main id="main">
 <section class="dark" aria-labelledby="title"><div class="wrap hero">
 <div class="hero-copy"><h1 id="title"><span class="word-line" style="--i:0"><span>Write the</span></span> <span class="word-line" style="--i:1"><span>whole thing.</span></span> <span class="word-line accent" style="--i:2"><span>Guide the eye.</span></span></h1>
-<p class="intro">Keep the whole argument. Give readers a short, truthful path through it. FlowWrite is a writing protocol for people and AI assistants.</p>
+<p class="intro">Keep the whole argument. Give readers a short, truthful path through it. Flowrite is a writing protocol for people and AI assistants.</p>
 <a class="cta" href="#protocol">Try the protocol <span class="arrow" aria-hidden="true">↓</span></a>
 <span class="micro">v0.1 / experimental · nothing to install</span></div>
 <article id="example" class="specimen" aria-labelledby="sample-title">
@@ -60,14 +60,14 @@
 </div></section>
 <section id="protocol" class="dark apply" aria-labelledby="apply-title"><div class="wrap apply-grid">
 <div><span class="chapter">02 / Use it</span><h2 id="apply-title" class="section-title">Try it on<br><span class="accent">real writing.</span></h2><p>Paste the instruction into your assistant and give it a draft that has a decision, a reason, and a caveat. Then ask someone to read only the emphasized parts and tell you what they understood.</p>
-<p><strong>Use FlowWrite anywhere text appears:</strong> in a chat, on your website, or in a document.</p>
+<p><strong>Use Flowrite anywhere text appears:</strong> in a chat, on your website, or in a document.</p>
 <p>Your agent uses the cues the channel supports: <strong>bold</strong>, <em>italics</em>, or underlining where available. In plain text, short labels and line breaks can do the same job.</p></div>
 <div class="prompt-card"><span class="label accent">Agent instruction / v0.1 starter</span>
-<blockquote id="prompt">Follow FlowWrite: write natural full-resolution prose while embedding a sparse secondary pathway of emphasized semantic anchors. A reader following primarily those anchors should be able to reconstruct the core through-line without being misled by missing context. Emphasize meaning-bearing claims and relationships rather than keywords. Preserve material uncertainty and qualifications. Before responding, mentally strip away the ordinary prose and verify that the remaining headings and anchors communicate the essential argument; then verify that the complete prose still reads naturally without the formatting.</blockquote>
-<div class="prompt-actions"><button type="button" class="cta" id="copy" hidden>Copy instruction</button><a class="text-link" href="https://github.com/Teambotics-Inc/flowwrite/blob/main/FLOWWRITE_PROTOCOL.md">Read the full spec <span class="arrow" aria-hidden="true">↗</span></a><a class="text-link" href="/llms.txt" type="text/plain">Plain-text guide for agents <span class="arrow" aria-hidden="true">↗</span></a><span id="copy-status" class="copy-status" role="status"></span></div>
-<p class="agent-tip">Or point your agent here and say: “Read the plain-text guide and use FlowWrite for this task.”</p>
-<div class="status-note">FlowWrite v0.1 is experimental. We haven’t established that it improves reading speed or comprehension.</div></div>
-</div><footer class="wrap bottom"><a class="wordmark" aria-label="FlowWrite home" href="/">FLOW<span>/</span>WRITE</a><span class="foot-meta">The writer routes attention. The reader decides where to spend it.</span><a class="text-link" href="https://www.teambotics.app/">TeamBotics <span class="arrow" aria-hidden="true">↗</span></a></footer></section>
+<blockquote id="prompt">Follow Flowrite: write natural full-resolution prose while embedding a sparse secondary pathway of emphasized semantic anchors. A reader following primarily those anchors should be able to reconstruct the core through-line without being misled by missing context. Emphasize meaning-bearing claims and relationships rather than keywords. Preserve material uncertainty and qualifications. Before responding, mentally strip away the ordinary prose and verify that the remaining headings and anchors communicate the essential argument; then verify that the complete prose still reads naturally without the formatting.</blockquote>
+<div class="prompt-actions"><button type="button" class="cta" id="copy" hidden>Copy instruction</button><a class="text-link" href="https://github.com/Teambotics-Inc/flowwrite/blob/main/FLOWRITE_PROTOCOL.md">Read the full spec <span class="arrow" aria-hidden="true">↗</span></a><a class="text-link" href="/llms.txt" type="text/plain">Plain-text guide for agents <span class="arrow" aria-hidden="true">↗</span></a><span id="copy-status" class="copy-status" role="status"></span></div>
+<p class="agent-tip">Or point your agent here and say: “Read the plain-text guide and use Flowrite for this task.”</p>
+<div class="status-note">Flowrite v0.1 is experimental. We haven’t established that it improves reading speed or comprehension.</div></div>
+</div><footer class="wrap bottom"><a class="wordmark" aria-label="Flowrite home" href="/">FLOW<span>/</span>RITE</a><span class="foot-meta">The writer routes attention. The reader decides where to spend it.</span><a class="text-link" href="https://www.teambotics.app/">TeamBotics <span class="arrow" aria-hidden="true">↗</span></a></footer></section>
 </main>
 <script>
 (() => {
