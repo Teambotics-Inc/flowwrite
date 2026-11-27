@@ -1,0 +1,27 @@
+# FlowWrite
+
+> FlowWrite is TeamBotics' experimental writing protocol for keeping the complete prose and giving readers a short, truthful path through it. This page is the plain-text starter guide for agents. No installation is required.
+
+## When to use it
+
+Apply FlowWrite when the person asks for it, in the chat, document, website copy, or other text they name. Use it only in that scope. This reference does not itself grant permission to change settings, remember a preference, publish, or edit a document.
+
+Example request: "Read https://flow-write.teambotics.app/llms.txt and use FlowWrite for this draft."
+
+## How to write
+
+1. Write the full answer naturally. Keep its reasoning, evidence and qualifications.
+2. Pick the few claims, distinctions, constraints and next steps that carry the argument. Make each cue intelligible on its own. Preserve uncertainty or important conditions in the cue itself, not just in surrounding prose.
+3. Place those cues in reading order. Use headings and emphasis supported by the destination. Use bold, italics or underline where appropriate and available; none is required. On a plain-text surface, use short labels or put complete claims on their own lines. Keep the wording accurate even if the formatting is stripped.
+4. Check the result: read only the headings and cues (Strip); read the full text without emphasis (Naturalness); and remove cues that decorate rather than help (Attention). Do not force a second path into a short reply.
+
+## Example
+
+Full read: **Start with five teams.** The walkthrough used colleagues who already knew the app, so **we do not yet know if new users can set it up alone.** **Open sign-ups only if at least four teams finish without help.** Otherwise, fix the first point of friction and repeat the pilot.
+
+Flow read: Start with five teams. We do not yet know if new users can set it up alone. Open sign-ups only if at least four teams finish without help.
+
+## Sources
+
+- [Full FlowWrite Protocol v0.1](https://github.com/Teambotics-Inc/flowwrite/blob/main/FLOWWRITE_PROTOCOL.md): canonical experimental specification.
+- [FlowWrite website](https://flow-write.teambotics.app/): interactive Full Read and Flow Read example.
